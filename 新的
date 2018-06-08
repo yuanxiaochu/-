@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css">
+	     a{
+			text-decoration:none;
+		 }
+		#d7{
+			width:1000px;
+			height:400px;
+			margin:30px auto;
+		}
+		#d1,#d2{
+			background-image:url(img/arrow-left.png);
+			background-repeat:no-repeat;
+			background-color:#A2A5B1;
+			float:left;
+			height:58px;
+			width:30px;
+			background-position:8px 20px;
+			border-radius:3px;
+			position:relative;
+			top:-220px;
+			
+		}
+		#d2{
+			background-image:url(img/arrow-right.png);
+			float:right;
+		}
+	p.yuan{
+		width:13px;
+		height:13px;
+		background-color:#09A1ED;
+		border-radius:40%;
+		position:relative;
+		left:460px;
+		top:-45px;
+		float:left;
+		margin-right:7px;
+	}
+	#d4,#d5,#d6{
+		background-color:#FFF;
+	}
+	img:hover,a:hover{
+		cursor:pointer;
+	}
+	#toubu{
+		width:1000px;
+		margin:0 auto;
+		height:140px;
+		position:relative;
+		
+	}
+	#toubu span{
+		position:absolute;
+		top:62px;
+		left:542px;
+		font-size:8px;
+		color:#bbb;
+	}
+	input.ss{
+		height:30px;
+		width:400px;
+		margin-left:40px;
+		float:left;
+		margin-top:53px;
+		padding-left:5px;
+		background-image:url(img/header_normal.png);
+		background-repeat:no-repeat;
+		background-position:385px 13px;
+		border:1px solid #0AA1ED;
+	}
+	input:focus{
+		      outline:none;
+		     }
+	#toubu img{
+		margin-top:50px;
+		float:left;
+	}
+	.an{
+		background-image:url(img/search.png);
+		background-repeat:no-repeat;
+		width:37px;
+		height:34px;
+		float:left;
+		margin-top:53px;
+		border:0;
+		
+	}
+	.an:focus{
+		      outline:none;
+		     }
+	.an:hover{
+		cursor:pointer;
+	}
+	.gouwu1{
+		width:30px;
+		height:20px;
+		float:left;
+		background-image:url(img/care.png);
+		margin-top:53px;
+		/*padding-left:6px;*/
+		background-repeat:no-repeat;
+		border-right:1px solid #3E3B3E;
+		
+		
+	}
+	a.gouwu3{
+		width:30px;
+		height:20px;
+		float:left;
+		background-image:url(img/order.png);
+		margin-top:53px;
+		/*padding-left:6px;*/
+		margin-left:8px;
+		background-repeat:no-repeat;
+		border-right:1px solid #3E3B3E;
+	}
+	a.gouwu4{
+		width:30px;
+		height:20px;
+		float:left;
+		margin-top:53px;
+		/*padding-left:6px;*/
+		margin-left:8px;
+		background-repeat:no-repeat;
+		background-image:url(img/shop_car.png);
+		border-right:1px solid #3E3B3E;
+		;
+	}
+	a.gouwu2{
+		width:40px;
+		height:20px;
+		float:left;
+		margin-top:55px;
+		border-right:1px solid #3E3B3E;
+		margin-left:8px;
+		/*padding-left:6px;*/
+		
+		 font-size:10px;
+		 color:#BBB;
+
+		
+	}
+	a.gouwu5{
+		border:0;
+	}
+	#gouwu{
+		float:right;
+	}
+	#sy{
+		width:1000px;
+		margin:0 auto;
+	}
+	#sy a{
+		margin-right:31px;
+		
+		color:#ccc;
+	
+	}
+	#sytj{
+		width:1000px;
+		height:30px;
+		border-bottom:2px solid #ccc;
+		margin:0 auto;
+		background-image:url(img/computer_icon.png);
+		background-repeat:no-repeat;
+		position:relative;
+	}
+	
+	
+	#sytj p{
+		color:#66686A;
+		font-size:23px;
+		float:left;
+		position:absolute;
+		top:-30px;
+		left:50px;
+	}
+	#f1{
+		width:1000px;
+		height:620px;
+		margin:0 auto;
+		position:relative;
+		
+		
+	
+	}
+	.f1_one{
+		float:left;
+		list-style-type:none;
+		background-color:#E8E8E8;
+		margin:10px 0;
+		position:relative;
+
+		
+	}
+	.f1_1{
+		height:370px;
+		width:600px;
+		margin-right:10px;
+		
+	}
+	.f1_1 img{
+		position:absolute;
+		top:40px;
+		left:190px;
+	}
+	.f1_2{
+		width:390px;
+		height:370px;
+		
+	}
+	.f1_2 img{
+		position:absolute;
+		top:95px;
+		left:80px;
+	}
+	.f1_3{
+		width:370px;
+		height:230px;
+		margin-right:10px;
+	}
+	.f1_3 img{
+		position:absolute;
+		top:30px;
+		left:160px;
+	}
+	.f1_4{
+		width:200px;
+		height:235px;
+		margin-right:10px;
+	}
+	
+	.f1_5{
+		width:200px;
+		height:235px;
+		margin-right:10px;
+	}
+	
+	.f1_6{
+		width:200px;
+		height:235px;
+	}
+	p.zt_1{
+		
+		font-size:26px;
+		width:205px;
+		position:absolute;
+		top:15px;
+		left:50px;
+	}
+	p.yd_1{
+		position:absolute;
+		top:50px;
+		left:50px;
+	}
+	p.yd_2{
+		position:absolute;
+		top:100px;
+		left:50px;
+	}
+	p.zt_2{
+		font-size:10px;
+		color:#66667B;
+		width:250px;
+		
+	}
+	p.zt_3{
+		color:#1AAAF2;
+		font-size:24px;
+		
+	}
+	p.yd_3{
+		position:absolute;
+		top:150px;
+		left:50px;
+	}
+	
+	.yd_4{
+		height:45px;
+		width:140px;
+		position:absolute;
+		top:220px;
+		left:50px;
+		background-color:#17A8F1;
+		border-radius:5px;
+		color:#fff;
+		font-size:16px;
+		border:0;
+		}
+		.yd_5{
+			
+			top:135px;
+			left:25px;
+		}
+		.yd_6{
+			position:absolute;
+			top:5px;
+			left:25px;
+			font-size:24px;
+			color:#333;
+			width:160px;
+		
+		}
+		.yd_7{
+			position:absolute;
+			top:68px;
+			left:20px;
+		}
+		.xm{
+			font-size:8px;
+			position:absolute;
+			top:120px;
+			left:30px;
+		}
+		
+		.xm1{
+			font-weight:bold;
+			position:absolute;
+			top:135px;
+			left:35px;
+		}
+		.xm2{
+			position:absolute;
+			top:195px;
+			left:45px;
+			background-color:#17A8F1;
+			color:#fff;
+			border-radius:3px;
+			border:0;
+			width:110px;
+			height:30px;
+		}
+		#db{
+			width:1000px;
+			margin:0 auto;
+			height:200px;
+		}
+		#db img{
+			
+			margin:40px 67px 0 120px;
+			float:left;
+		
+		}
+		#db p{
+			float:left;
+			margin:15px 67px 0 115px;
+			color:#666;
+		
+		}
+		#js{
+			width:1000px;
+			height:300px;
+			margin:0 auto;
+			margin-top:100px;
+		}
+		#js_1{
+		
+			width:293px;
+			float:left;
+		}
+		#js_2{
+			width:380px;
+			float:left;
+		}
+		#js_2 ul{
+			list-style-type:none;
+			float:left;
+			font-size:10px;
+			margin-right:30px;
+			}
+		#js_2 ul li a{
+			color:#666;
+		}
+		#js_2 ul li{
+			margin-bottom:10px;
+		}
+		#js_2 ul li a.dm{
+			font-size:14px;
+			color:#333;
+		}
+		#app{
+			width:124px;
+			float:left;
+			margin-left:65px;
+		}
+		#app p{
+			font-size:12px;
+			text-align:center;
+		}
+	
+		#app_b{
+			margin:20px 0 0 20px;
+		}
+	</style>
+</head>
+<body>
+	<div id="toubu">
+		<img src="img/logo1.png" alt=""  />
+		<input type="text" class="ss" placeholder="请输入您要搜索的内容">
+		<!--<input type="button" class="an">-->
+		<button class="an"></button>
+		<span>分类搜索</span>
+		<div id="gouwu">
+			<a href="" class="gouwu1"></a>
+			<a href="" class="gouwu3"></a>
+			<a href="" class="gouwu4"></a>
+			<a href="" class="gouwu2">注册</a>
+			<a href="02zy1.html" class="gouwu2 gouwu5 ">登录</a>
+		</div>
+	</div>
+	<div id="sy">
+		<a href="">首页</a>
+		<a href="">学习用品</a>
+		<a href="">私人定制</a>
+	</div>
+	<div id="d7">
+		<a href="http://www.codeboy.com/product_details.html?lid=28">
+			<img src="img/banner1.png" alt="" />
+		</a>
+		<a href="#" id="d1"></a>
+		<a href="#" id="d2"></a>
+		<div>
+			<a href="#">
+				<p class="yuan" ></p>
+			</a>
+			<a href="#">
+				<p class="yuan" id="d4"></p>
+			</a>
+			<a href="#">
+				<p class="yuan" id="d5"></p>
+			</a>
+			<a href="#">
+				<p class="yuan" id="d6"></p>
+			</a>
+		</div>
+	</div>
+	<div id="sytj">
+		<p>首页推荐/1F</p>
+	</div>
+	<div id="f1">
+			<div class="f1_1 f1_one">
+				<a href="">
+					<img src="img/study_computer_img1.png" alt="" />
+					
+				</a>
+				<div>
+					<p class="zt_1 " >App&nbsp;l&nbsp;e&nbsp;&nbsp;MacBook</p>
+					<p class="zt_1 yd_1">A&nbsp;i&nbsp;r系列</p>
+					<p class="zt_2 yd_2">酷睿双核i5处理器丨256GB&nbsp;SSD丨8GB内存丨英特尔HD显卡620含共享显卡内存</p>
+					<p class="zt_3 yd_3">￥6988.00</p>
+					<p><a href=""><button class="yd_4">查看详情</button></a></p>
+				</div>
+			</div>
+			<div class="f1_2 f1_one">
+				<a href="">
+					<img src="img/study_computer_img2.png" alt="" />
+				</a>
+				<div>
+					<p class="zt_1">小米A&nbsp;i&nbsp;r&nbsp;&nbsp;金属超</p>
+					<p class="zt_1 yd_1" >轻薄</p>
+					<p class="zt_2 yd_2"">酷睿双核i5处理器丨512GB&nbsp;SSD丨2GB内存丨英特尔HD独立显卡</p>
+					<p class="zt_3 yd_3">￥3488.00</p>
+					<p><a href=""><button class="yd_4 ">查看详情</button></a></p>
+				</div>
+			</div>
+			<div class="f1_3 f1_one">
+				<a href="">
+					<img src="img/study_computer_img3.png" alt="" />
+				</a>
+				<div>
+					<p class="yd_6">联想E480C&nbsp;轻薄系列</p>
+					<p class="zt_3 yd_7 ">￥5399.00</p>
+					<p><a href=""><button class="yd_4 yd_5">查看详情</button></a></p>
+				</div>
+			</div>
+			<div class="f1_4 f1_one">
+				<a href="">
+					<img src="img/study_computer_img4.png" alt="" />
+				</a>
+				<div>
+					<p class="xm">华硕RX310&nbsp;金属超极本</p>
+					<p class="zt_3 xm1 ">￥4966.00</p>
+					<p><a href=""><button class="xm2">查看详情</button></a></p>
+				</div>
+			</div>
+			<div class="f1_5 f1_one">
+				<a href="">
+					<img src="img/study_computer_img5.png" alt="" />
+				</a>
+				<div>
+					<p class="xm">联想小新700&nbsp;电竞版游戏本</p>
+					<p class="zt_3 xm1">￥6299.00</p>
+					<p><a href=""><button class="xm2">查看详情</button></a></p>
+				</div>
+			</div>
+			<div class="f1_6 f1_one">
+				<a href="">
+					<img src="img/study_computer_img3.png" alt="" />
+				</a>
+				<div>
+					<p class="xm">戴尔灵越燃7000&nbsp;轻薄窄边</p>
+					<p class="zt_3 xm1">￥5199.00</p>
+					<p><a href=""><button class="xm2">查看详情</button></a></p>
+				</div>
+			</div>
+	</div>
+	<div id="db">
+		<img src="img/icon1.png" alt="" />
+		<img src="img/icon2.png" alt="" />
+		<img src="img/icon3.png" alt="" />
+		<img src="img/icon4.png" alt="" />
+		<p>品质保障</p>
+		<p>私人制定</p>
+		<p>学员特供</p>
+		<p>专属特权</p>
+	</div>
+	<div id="js">
+		<div id="js_1">
+			<img src="img/logo1.png" alt="" />
+			<img src="img/footerFont.png" alt="" />
+		</div>
+		<div id="js_2">
+			<ul>
+				<li><a href="" class="dm">买家帮助</a></li>
+				<li><a href="">新手指南</a></li>
+				<li><a href="">服务保障</a></li>
+				<li><a href="">常见问题</a></li>
+			</ul>
+			<ul>
+				<li><a href="" class="dm">商家帮助</a></li>
+				<li><a href="">商家入驻</a></li>
+				<li><a href="">商家后台</a></li>
+				
+			</ul>
+			<ul>
+				<li><a href="" class="dm">关于我们</a></li>
+				<li><a href="">关于达内</a></li>
+				<li><a href="">联系我们</a></li>
+				<li>
+					<a href="">
+						<img src="img/wechat.png" alt="" />
+						<img src="img/sinablog.png" alt="" />
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div id="app">
+			<p>学子商城客户端</p>
+			<a href="">
+				<img src="img/ios.png" alt="" />
+			</a>
+			<a href="">
+				<img src="img/android.png" alt="" />
+			</a>
+		</div>
+		<img src="img/erweima.png" alt="" id="app_b" />
+	</div>
+	
+</body>
+</html>
+ </body>
+</html>
